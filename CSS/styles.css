@@ -1,0 +1,128 @@
+/* fondo */
+.fondo {
+    background-color: black;
+    padding: 30px;
+}
+
+/* letras */
+
+.bienvenido {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Tahoma;
+}
+
+.nombre {
+    color: aliceblue;
+}
+
+.email {
+    color: aliceblue;
+}
+
+.btn-twitter{
+    background-color: #31a1f2;
+    color: white;
+}
+
+a.btn-twitter:hover{
+    color: white;
+    box-shadow: -2px 3px 6px black;
+}
+
+/* GLOBAL */
+
+body, html, .container, .row{
+    height: 100vh;    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+/*
+
+    ESTILOS FORMULARIO
+
+*/
+
+    
+div.col-lg-4
+{
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom, #00c5ab, #08310069) 1;
+    background-color: #1b7500;
+    margin-bottom: 10px; 
+}
+
+button.btn-success
+{
+    margin: 10px 0px;
+    background-image: linear-gradient(to bottom, #00c5ab, #051b005e);
+    border: 0;
+}
+
+div.form-group{
+    margin: 10px auto;
+}
+
+/*
+
+    ESTILOS TARJETA
+    
+*/
+
+.col-lg-7 .card-header, .card-footer{
+    background-image: linear-gradient(to right, #00c5ab, #58e239c4);
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    font-weight: 700;    
+}
+
+.card-body
+{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaG91IkSV6xQ3XiBZJVZBxq0Gyvh0AWa1AzSqv8Psg-rMtZ6edlc2R1cRwUzyAMQPCMck&usqp=CAU');
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+.card-content
+{
+    background-color: rgba(255, 255, 255, 0.582);
+    width: fit-content;
+    margin: 5px auto;
+    padding: 50px 20px;
+    border: 10px solid black;
+}
+
+.card-content img
+{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin: 0px auto 25px auto;
+}
+
+.card-title
+{
+    font-weight: 700;
+    background: linear-gradient(to bottom,#1e1e96, #223946);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Student
+{
+    font-weight: 700;
+}
+
+.Aprendido
+{
+    font-size: 20px;
+}
